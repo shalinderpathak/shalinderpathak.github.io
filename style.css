@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.topnav { 
+    position: sticky;
+    top: 0;
+    z-index: 999999999;
+background-color: #333;
+overflow: hidden;}
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: right;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: red;
+color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: pink;
+color: black;
+}
+.main{ border: 2px black solid;
+background-image: url("https://www.nesfircroft.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBem1CQkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--10e07b6f9aa62c88d4b28278c188db67d45cf07d/Engineer's%20Mindset.jpg");
+background-size: cover;
+background-attachment: fixed;
+height: 300px;
+width: 80%;
+margin: auto;
+margin-top: 20px;
+background-repeat: no-repeat;
+background-position-x: center;
+text-align: center;
+
+}
+.footer{
+background-color: aqua;
+width: 80%;
+margin: auto;
+margin-top: 20px;
+text-align: center;
+}
+.intro H1{
+margin: auto;
+margin-top: 25px;
+color: purple;
+text-transform: uppercase;
+}
+.image{
+background-image: url("kmb_avatar_1543649197144.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 156.66602px;
+height: 145px;
+border: 2px black solid;
+margin: auto;
+margin-top: 10px;
+}
+.intro p1{
+color: rgb(207, 20, 82);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 200;
+}
+#donutchart{
+    margin: auto;
+    width: 780px;
+    height: 400px;
+
+}
+
+

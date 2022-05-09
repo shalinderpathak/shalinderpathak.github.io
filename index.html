@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['HTML5',     5],
+          ['CSS3',      5],
+          ['Python',  4],
+          ['AutoCad', 5],
+          ['SolidWorks',  5]
+        ]);
+
+        var options = {
+          title: 'My Skills',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#main">Home</a>
+        <a class="active" href="#donutchart">Skills</a>
+        <a href="#about">Work</a>
+        <a href="#about">About</a>
+      </div> 
+    <div class="main" id="main">
+        <div class="image">
+            
+
+        </div>
+        <div class="intro">
+        <H1> "Hello"</H1>
+        <p1>
+            <b>I am Shalinder Pathak a mechanical engineer with skills of web development and product design.</b>
+
+        </p1>
+    </div>
+    </div>
+    <div id="donutchart" style="padding-top: 50px;"></div>
+    <div class="footer">
+ Contact: <br>
+ Shalinder.pathak@outlook.com <br>
+8505962545 <br>
+H.no. – 114/A, Street no. – 02, Sheetla Colony, Gurgaon, Haryana, 122001 <br>
+
+    </div>
+</body>
+</html>
